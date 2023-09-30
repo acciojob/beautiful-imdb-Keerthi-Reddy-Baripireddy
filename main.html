@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Movie Detail Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .moviePic {
+            height: 300px;
+            width: 200px;
+            opacity: 0.9;
+        }
+
+        .movieDetail {
+            position: absolute;
+            top: 50%;
+            width: 60%;
+            text-align: center;
+            font-size: 18px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <img src="movie-poster.jpg" alt="Movie Poster" class="moviePic">
+    <p class="movieDetail">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non nulla eu justo efficitur vulputate a eget sapien. Nullam eu augue eget eros faucibus fringilla. In id justo at elit dignissim bibendum. Vivamus nec consequat justo, in tempus leo. Pellentesque euismod felis vitae posuere.
+    </p>
 </body>
-
 </html>
